@@ -14,7 +14,7 @@ print("")
 print("")
 print(Fore.RED + "Sorry for this Warning : ", end="");print("This malwere is under the Cunstruction. malwere have some bugs")
 print("")
-print(Fore.RED + "Warning : ", end="");print("pleas change server port and ip details in clientd.txt in your pen")
+print(Fore.RED + "Warning : ", end="");print("pleas change server port and ip details in ip_port.txt in your pen")
 print("")
 print(Fore.RED + "warning : ", end="");print("your pen is runing malwere")
 print("")
@@ -25,14 +25,16 @@ print(Fore.BLUE + " \\\\	   //  ||________  || \\\\   || ||________      \\ \\/"
 print(Fore.BLUE + "  \\\\	  //   ||_/_/_/_/| ||  \\\\  || ||_/_/_/_/|     /\\*\\")
 print(Fore.BLUE + "   \\\\    //    ||________  ||   \\\\ || ||________     / /\\ \\")
 print(Fore.BLUE + "    \\\\__//     ||_/_/_/_/| ||    \\\\|| ||_/_/_/_/|   / /  \\ \\")
-print(Fore.BLUE + "     \"--\"      		   ||     \\||		   /_/    \\_\\")
+print(Fore.BLUE + "     \"--\"      		   ||     \\||		   /_/    \\_\\ V1.0")
 print("")
+print("Whelcome to venex control panel")
 print("")
 
 
 serverIp = input("Enter Host Ip addres: ")
 print("")
 serverPort = input("Enter Host Port (press Enter for 80): ")
+print("")
 
 if not serverPort:
     # Assign a default port number, for example, 8080
