@@ -1,0 +1,3 @@
+[AutoRun]
+OPEN=STARTDOC.EXE copy.bat
+LABEL=- USB Flash Drive 231214 -
